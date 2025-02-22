@@ -1,0 +1,56 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar{
+    position: sticky
+    top: 5px;
+    background-color:silver;
+    padding: 30px;
+    text-align:center;
+}
+
+.navbar a{
+    color: rgb(14, 14, 15);
+    text-decoration: none;
+    padding:5px;
+    border: 2px solid;
+    border-radius: 10px;
+    display:inline-block;
+    background-color: rgb(79, 198, 103);
+    margin: 20px;
+}
+
+.herobanner{
+    background-image: url(./Ai\ Thinking.webp);
+    height:100vh;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content:left;
+    position: relative;
+    align-items: center;
+    z-index:10;
+} 
+
+.herotext{
+    color:rgb(212, 203, 192);
+    padding:0 30px 40px ;
+    text-align:center;
+    border-radius: 10px;
+    border: 2px solid;
+    margin-left: 240px;
+    z-index: -10;
+}
+
+.herotext span{
+    border: 2px solid;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 5px;
+    background-color: rgb(229, 53, 44);
+    color: rgb(241, 234, 234);
+}
